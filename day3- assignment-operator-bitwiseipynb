@@ -1,0 +1,466 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "b8fa3402-28fc-4ce3-a7e8-e7d2d7449519",
+   "metadata": {},
+   "source": [
+    "##assignment-operator"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "b1f18d62-43af-4f9d-b19d-385a78d27f1a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=10\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "161a1abe-5b62-4516-8415-f12578d34544",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=10\n",
+    "x=5\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "9b755439-5f59-43a1-acc2-ba5397d721e0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "50\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=10\n",
+    "x*=5\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "8240ff3d-af27-48c6-94a6-ca5761a1e250",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=10\n",
+    "x/=5\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "e13f4a0e-526c-4fc3-a60c-9040988095d9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=10\n",
+    "x//=3\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "71ae20a0-273a-4f0e-97fa-12824531d0b7",
+   "metadata": {},
+   "source": [
+    "##incrimental"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "c49b8e29-87b2-4dc5-af79-ee528e3a0c4d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "11\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=10\n",
+    "x+=1\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "659da05f-bc36-49ba-b7e3-0d5ae4b2b481",
+   "metadata": {},
+   "source": [
+    "##decrimental"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "c8a2feae-c248-47dc-b96f-b57f58abf082",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=10\n",
+    "x-=1\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "73ec86e8-e44c-4938-90cf-a695a2e8f5e8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=10\n",
+    "x%=6\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "da008225-7be9-42bf-9732-ef1ec50a7464",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=5\n",
+    "x**=2\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "43bc9b16-33ee-4988-a728-f7a5a38f3f85",
+   "metadata": {},
+   "source": [
+    "##left shift right shift"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "e69a0331-9bcb-45e0-bc41-55a582d371a1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "30\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=15\n",
+    "x<<=1\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "5b99289d-8dda-4109-b586-08ee44c6e412",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "76\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=19\n",
+    "x<<=2\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "b4dca581-7308-444e-8ff2-9444e709f6a3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "168\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=21\n",
+    "x<<=3\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c1b88475-f698-480c-9e06-6c99e0f25134",
+   "metadata": {},
+   "source": [
+    "##right shift "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "0091ec93-ca38-4cda-9481-a1db22dbbade",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=15\n",
+    "x>>=2\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "ce0b28d0-fde7-4645-995f-00b11f04254f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=21\n",
+    "x=1\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "174986b2-7c1d-49b3-b8f4-e0c560d33b70",
+   "metadata": {},
+   "source": [
+    "##bitwise-operator\n",
+    "###bitwise and\n",
+    "###bitwise or\n",
+    "###bitwise not"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "5e3594e9-ce98-42eb-a2b0-eb8b24cc9a4c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "bitwise AND : 1\n"
+     ]
+    }
+   ],
+   "source": [
+    "#bitwise AND operator\n",
+    "a=5\n",
+    "b=3\n",
+    "print(\"bitwise AND :\",a&b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "9ed5e73f-f400-4c41-a52f-013c9c1d825a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "bitwise AND : 0\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=8\n",
+    "b=4\n",
+    "print(\"bitwise AND :\",a&b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "9fabc1ec-256c-4645-a6de-55dc5f59628e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "bitwise OR : 1\n"
+     ]
+    }
+   ],
+   "source": [
+    "#bitwise OR operator\n",
+    "a=5\n",
+    "b=3\n",
+    "print(\"bitwise OR :\",a//b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "4664d80a-5ee5-4757-ac2e-6f908ef09103",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "bitwise X-OR: 6\n"
+     ]
+    }
+   ],
+   "source": [
+    "#bitwise X-OR operator\n",
+    "a=5\n",
+    "b=3\n",
+    "print(\"bitwise X-OR:\",a^b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "24d6f545-d252-43e1-aff0-e68f12e5d16e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "bitwise NOT : -6\n"
+     ]
+    }
+   ],
+   "source": [
+    "#bitwise NOT operator \n",
+    "a=5\n",
+    "print(\"bitwise NOT :\",~a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "77b31f89-fa0e-4aa9-9de3-bee088e62d76",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
